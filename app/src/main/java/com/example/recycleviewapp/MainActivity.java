@@ -12,7 +12,6 @@ import android.view.WindowManager;
 import android.widget.CompoundButton;
 import android.widget.LinearLayout;
 import android.widget.Switch;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -82,7 +81,6 @@ public class MainActivity extends AppCompatActivity {
             list_row_model items=new list_row_model(image[i]);
             list_row_data.add(items);
         }
-
 
 
         recyclerView.setHasFixedSize(true);

@@ -16,6 +16,8 @@
         android:layout_gravity="end"
         android:layout_margin="15dp"
         />
+
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/main_recycleview_id"
         android:layout_width="match_parent"
